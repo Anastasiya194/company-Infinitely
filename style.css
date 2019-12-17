@@ -1,0 +1,54 @@
+.container1{
+    position: absolute;
+    width: 1920px;
+    height: 740px;
+    left:0px;
+    background-image: url(img/Rectangle.png);
+   }
+  
+   .container1 .logo1 {
+   margin-top:20px;
+   margin-right:1455px;
+   margin-left: 600px;
+   margin-bottom:660px;
+    position: absolute;
+    width:60px;
+    height: 60px;
+    bottom: 98.77%;
+   }
+  
+   .container1 h1 {
+    position: absolute;
+    width: 734px;
+    height: 190px;
+    left: 593px;
+    top: 192px;
+  
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    /* White */
+    color: #FFFFFF;
+  }
+  .container1 h4 {
+    position: absolute;
+    width: 314px;
+    height: 27px;
+    left: 803px;
+    top: 398px;
+    margin-top: 130px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  

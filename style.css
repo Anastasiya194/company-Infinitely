@@ -14,20 +14,25 @@ body {
   padding-right: 20px;
 }
 
+/* main-header */
+
 .main-header  {
   background-image: url("img/background.png");
   height: 740px;
 }
+
 .main-header__top-block {
   display: flex;
   justify-content: space-between;
 
 }
+
 .main-header__logo {
   width: 60px;
   height: 60px;
   margin-top: 20px;
 }
+
 .main-header__menu {
   background-color: #F7654A;
   width: 50px;
@@ -47,6 +52,7 @@ body {
   margin-top: 1.5px;
   margin-bottom: 1.5px;
 }
+
 .title_one {
   width: 734px;
   height: 190px;
@@ -56,11 +62,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  padding: 15px;
   text-transform: uppercase;
   border: none;
   margin: 112px auto 16px auto;
 }
+
 .main-header__subtitle {
   font-size: 18px;
   line-height: 27px;
@@ -68,6 +74,11 @@ body {
   color: #FFFFFF;
   text-transform: uppercase;
 }
+
+/* main-header */
+
+/* indicators */
+
 .indicators{
   height: 300px;
   margin-top:-150px;
@@ -75,12 +86,12 @@ body {
 .indicators__content{
   display: flex;
   justify-content: center;
-  margin-top: 55px;
   margin-bottom: 55px;
   background-color: #F7F7F7;
 }
 .indicators__indicator {
-  margin: 35px;
+  margin: 55px 35px;
+
 }
 .indicators__number{
   font-weight: 500;
@@ -91,7 +102,7 @@ body {
   color: #F7654A;
 }
 .indicators__title{
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 36px;
   line-height: 53px;
   text-align: center;
@@ -105,6 +116,68 @@ body {
   text-align: center;
   color: #999999;
 }
+
+/* indicators */
+ 
+/* projects */
+.projects{
+  
+}
+
+.projects__content  {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 123px;
+  background-color: #fff;
+}
+
+.projects__project {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.projects__title_one  { 
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.projects__img {
+  width: 350px;
+  height: 380px;
+}
+
+.projects__line{
+  width: 55px;
+  height: 6px;
+  background-color: #F7654A;
+  margin-top: 45px;
+}
+.projects__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 15px;
+}
+
+.projects__subtitle{
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #999999;
+  margin-top: 13px;
+
+/* projects */
+
+/* main-footer */
+
 .main-footer {
   background-color: #404149;
 }
@@ -129,3 +202,6 @@ body {
 .main-footer__link:hover {
   border-bottom: 1px solid #fff;
 }
+
+/* main-footer */
+

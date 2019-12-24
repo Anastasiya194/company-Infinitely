@@ -241,6 +241,83 @@ body {
 
 /* request */
 
+/* services */
+
+.services {
+  height: 639px;
+}
+
+.services__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
+  flex-direction: row;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.services__title-one {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.services__service {
+  margin: 15px;
+}
+
+.services__title {
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 107px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F7654A;
+}
+
+.services__subtitle {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000000;
+  
+}
+
+.services__fon {
+  width: 350px;
+  height: 250px;
+  background-color: #F7F7F7;
+  flex-wrap: wrap;
+}
+/* services */
+
+/* portfolio */
+
+.portfolio {
+  height: 814px;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+
+.portfolio__picture {
+  max-width: 25%;
+  object-fit: cover;
+}
+
+/* portfolio */
 
 /* main-footer */
 
